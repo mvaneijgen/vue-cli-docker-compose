@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    image: ebiven/vue-cli
+    volumes:
+      - ./app:/code
+    working_dir: /code
+    command: npm install
+    command: npm run dev
+    ports:
+      - "8080:8080"

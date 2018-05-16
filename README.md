@@ -12,7 +12,7 @@ vue-cli generated project will be located. It is intended to be run with `docker
 **Step one**
 
 ```commandline
-docker-compose run web vue init webpack app
+docker-compose run web vue init nuxt/starter app
 ```
 
 Creating network `vueclidockercompose_default` with the default driver. This will install Vue 2.x version of the template.
